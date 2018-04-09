@@ -1,0 +1,197 @@
+/* --------Base Styles--------- */
+body, html  {
+    margin: 0;
+    padding: 0;
+}
+ 
+body  {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+ 
+main {
+	margin: 50px;	
+} 
+
+div.wrap  {
+    width: 960px;
+    margin: 50px auto;
+}
+
+header {
+    font: 14px/1.5 Verdana, Helvetica, Arial, sans-serif;
+	display : flex;
+	flex-flow : row nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	border : 0;
+	margin : 0;
+	padding : 2px;
+    background-image: -moz-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -ms-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -webkit-linear-gradient(top, #535357, #3c3c3f);
+    background-image: linear-gradient(top, #535357, #3c3c3f);
+}
+
+header #menu {
+	order:1;
+	flex : 0 1 auto;
+	align-self : auto;
+           
+}
+
+header #fill {
+	order:2;
+	flex : 1 1 auto;
+	align-self : auto;
+}
+
+header #user {
+	order:3;
+	flex : 0 1 auto;
+	align-self : auto;
+}
+
+nav {
+	display : inline;
+	float : left;
+}
+
+#loginmenu {
+	display : inline;
+	float : right;
+}
+
+main {
+	margin-top : 25px;	
+}
+
+.menu {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_item {
+    list-style: none;
+    float: left;
+	display : inline;
+}
+
+.menu .menu_item a{
+    display: block;
+    text-align: center;
+    height:40px;
+    width: 140px;
+    line-height: 40px;
+    color: #fff;
+    
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+         
+    border-right: 1px solid #323235;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+           
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+}
+
+.menu .menu_item a:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    background-image: -moz-linear-gradient(top, #565658, #313132);
+    background-image: -ms-linear-gradient(top, #565658, #313132);
+    background-image: -webkit-linear-gradient(top, #565658, #313132);
+    background-image: linear-gradient(top, #565658, #313132);
+           
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+}
+
+.menu .active a {
+   pointer-events: none;
+   cursor: default;
+   text-decoration: none;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    background-image: -moz-linear-gradient(top, #565658, #313132);
+    background-image: -ms-linear-gradient(top, #565658, #313132);
+    background-image: -webkit-linear-gradient(top, #565658, #313132);
+    background-image: linear-gradient(top, #565658, #313132);
+           
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+}
+
+form input, form textarea, form select {
+	margin : 5px;
+	padding : 5px;
+	border-radius : 5px;
+}
+
+
+form {
+	padding : 25px;
+	border: 1px thin grey;
+	border-radius: 20px;
+	box-shadow:10px 10px 10px grey;
+}
+
+form table {
+	vertical-align: middle;
+}
+
+form span {
+	margin:5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+form input.error, form select.error, form textarea.error  { 
+	border-color : #e77776;
+    outline : none;
+    box-shadow : 0 0 10px #e77776;
+}
+
+form span.error, span.error, div.error {
+	padding : 5px;
+	background-color : #FF9E9E; 
+	border : 1px solid #e77776;
+	border-radius : 5px;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
+form input.success, form select.success, form textarea.success  { 
+	border-color : #06ea26; 
+    outline : none;
+    box-shadow : 0 0 10px #06ea26;
+} 
+
+form span.success {
+	padding : 5px;
+	background-color : #AAE3B2; 
+	border : 1px solid #06ea26;
+}
+
+.selectiontable {
+	border-collapse: collapse;
+}
+
+.selectiontable td {
+	cellspacing: 0;	
+}
+
+.selectiontable tr { 
+	cursor: default; 
+	border: 0;	
+}
+
+.selectiontable .highlight { 
+	background: yellow; 
+}

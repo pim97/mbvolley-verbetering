@@ -1,0 +1,12 @@
+.parallax { 
+    /* Achtergrond image frontpage */
+    background-image: url("../img/Banner_Volleyball.png");
+
+    /* Hoogte van achtergrond image */
+    height: 420px; 
+
+    /* Parallax scrolling effect achtergrond image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
