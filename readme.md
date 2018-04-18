@@ -1,10 +1,12 @@
-Er is één gebruiker aangemaakt in de database:
-userid: admin
-password: 1234
+## About this project
+<p align="center">This project was made as a school assignment. We had to create a new PHP website for a group called MBVolley. We had to do this in bitbucket, I finally moved the project over to github to have it in my portfolio.</p>
 
-Een vergelijkbare competitie systeem is: http://mbvvolley.nl. De regels daar kun je als uitgangspunt gebruiken.
+<p align="center">Our final grade was a 9.3</p>
 
-Known issues:
+## MBVolley
+A similar competitive system is: http://mbvvolley.nl, you can use those rules.
+
+## Known issues (in dutch)
 1. Er zijn dingen die een niet ingelogde gebruiker kan zien die die niet hoort te zien, bijv  de link 'uitslag' bij bepaalde wedstrijden
 1. Per speelweek horen alle rondes en velden zichtbaar te zijn, ook als er geen wedstrijden ingepland zijn dan.
 1. Uitslagen pagina klopt niet: er staan uitslagen in de database, maar zijn niet zichtbaar
